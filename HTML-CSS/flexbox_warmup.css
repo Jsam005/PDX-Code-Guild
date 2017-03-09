@@ -1,0 +1,28 @@
+
+.flex-container{
+    display: flex;
+    display: inline-block;
+}
+
+.row{
+    display: flex;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    border: dashed;
+    border-width: 2px;
+    margin: 20px
+}
+.red{
+    background-color: darkred;
+}
+
+.blue{
+    background-color: royalblue;
+}
+
+.yellow{
+    background-color: yellow;
+}
