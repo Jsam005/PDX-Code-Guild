@@ -1,0 +1,35 @@
+
+.container{
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.bar{
+    background-color: grey;
+    width: 100%;
+    position: fixed;
+    display: inline-flex;
+    justify-content: center;
+}
+.bar tabs{
+    display: block;
+    text-align: center;
+    top: 0;
+}
+
+.tabs a {
+    text-align: center;
+    border: solid;
+    border-width: 2px;
+}
+
+.tabs a:hover{
+    background-color: #07b2ae;
+}
+
+a{
+    font-family: "Courier New";
+    font-size: 42px;
+    color: ghostwhite;
+}
+
