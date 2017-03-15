@@ -1,0 +1,15 @@
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    border: double;
+    width: 300px;
+}
+
+#headerOne{
+    color: dodgerblue;
+}
+
+#headerTwo{
+    color: crimson;
+}
