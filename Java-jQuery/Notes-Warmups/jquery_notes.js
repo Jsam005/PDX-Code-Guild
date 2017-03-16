@@ -67,22 +67,21 @@ $(document).ready(function(){
 });
 */
 
-function checkAge(age){
-    $(document).ready(function(){
+function checkAge(age) {
+    console.log(parseInt(age));
+}
+
+$(document).ready(function(){
    $('#inputButton').on('click', function(){
-       var inputText = $('#inputBox').val();
-       console.log(inputText);
+       var inputAge = $('#inputBox').val();
+       checkAge(inputAge);
 
-       var inputAge = parseInt(inputText);
-
-       console.log(checkAge(inputAge));
-       if(inputAge > 30){
-           return "You can come in";
-       } else if(inputAge < 30 && age >= 21){
-           return "You barely made it";
+       if(inputAge >= 30){
+           console.log("You can come in");
+       } else if(inputAge >= 21 && inputAge < 30){
+           console.log("You barely made it");
        } else{
-           return "You can't come in";
+           console.log("You can't come in");
        }
    });
 });
-}
