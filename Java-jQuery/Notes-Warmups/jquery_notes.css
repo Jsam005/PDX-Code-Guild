@@ -4,3 +4,11 @@
     height: 150px;
     background-color: dodgerblue;
 }
+
+#headerOne{
+    color: darkblue;
+}
+
+.roundButton{
+    border-radius: 15%;
+}
