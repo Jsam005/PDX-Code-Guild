@@ -1,0 +1,10 @@
+p{
+    height: 50px;
+    width: 500px;
+    background-color: lightgreen;
+    border-style: solid;
+}
+
+button{
+    font-weight: bold;
+}
