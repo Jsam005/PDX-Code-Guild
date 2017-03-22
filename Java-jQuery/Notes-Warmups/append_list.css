@@ -1,0 +1,8 @@
+
+#box{
+    height: 500px;
+    width: 250px;
+    background-color: lightskyblue;
+    border-style: dotted;
+    margin-top: 5px;
+}
