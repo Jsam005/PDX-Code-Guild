@@ -1,0 +1,31 @@
+#container{
+    display: flex;
+    justify-content: space-between;
+    border: double;
+    border-radius: 5px;
+    width: 300px;
+}
+
+#headers{
+  color: dimgray;
+}
+
+#addButton{
+  background-color: green;
+  font-weight: bold;
+}
+
+#subtractButton{
+  background-color: orange;
+  font-weight: bold;
+}
+
+#multiplyButton{
+  background-color: crimson;
+  font-weight: bold;
+}
+
+#divideButton{
+  background-color: dodgerblue;
+  font-weight: bold;
+}
