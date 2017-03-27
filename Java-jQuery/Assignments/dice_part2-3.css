@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+}
+
+#diceImage{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#displayTotal{
+    font-size: 32px;
+    font-weight: bold;
+}
